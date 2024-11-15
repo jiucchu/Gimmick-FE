@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
 import styled from 'styled-components/native';
-import BackButtom from '../Components/BackButtom';
+import BackButtom from '../components/BackButtom';
 import {Modal} from 'react-native';
-import IconGrid from '../Components/IconGrid';
-
+import IconGrid from '../components/IconGrid';
 const IconPickerModal = () => {
   const [isModalVisible, setIsModalVisible] = useState(true);
 
