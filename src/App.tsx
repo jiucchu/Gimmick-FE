@@ -3,6 +3,7 @@ import {View} from 'react-native';
 import ForderCreateModal from './Pages/FolderCreateModal';
 import CreateSelectModal from './Pages/CreateSelectModal';
 import MainPage from './Pages/MainPage';
+import IconPickerModal from './Pages/IconPickerModal';
 
 function App(): React.JSX.Element {
   return (
@@ -10,6 +11,7 @@ function App(): React.JSX.Element {
       <MainPage />
       <ForderCreateModal />
       <CreateSelectModal />
+      <IconPickerModal />
     </View>
   );
 }
